@@ -7,5 +7,9 @@ function drag(id){
 	{
 		disX=ev.pageX- oDiv.offsetLeft;
 		disY=ev.pageY- oDiv.offsetTop;
+
+		oDiv.onmousemove = function(ev){
+			
+		}
 	}
 }
