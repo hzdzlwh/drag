@@ -10,6 +10,9 @@ function drag(id){
 
 		oDiv.onmousemove = function(ev){
 			
+			oDiv.style.left = ev.clientX -disX + 'px';
+			oDiv.style.top = ev.clientY -disY + 'px';
+
 		}
 	}
 }
