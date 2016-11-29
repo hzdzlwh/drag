@@ -9,7 +9,8 @@ function drag(id){
 		disY=ev.pageY- oDiv.offsetTop;
 
 		oDiv.onmousemove = function(ev){
-			
+			oDiv.style.left = ev.pageX - disX + 'px';
+			oDiv.style.top = ev.pageY - disY + "px";
 		}
 	}
 }
