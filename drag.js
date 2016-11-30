@@ -13,5 +13,9 @@ function drag(id){
 			oDiv.style.left = ev.pageX - disX + 'px';
 			oDiv.style.top = ev.pageY - disY + "px";
 		}
+
+		oDiv.onmouseup = function(ev){
+			
+		}
 	}
 }
